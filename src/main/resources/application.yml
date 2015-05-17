@@ -1,0 +1,11 @@
+server:
+  port: 8080
+datasource:
+  url: jdbc:mysql://localhost:3306/personsdb?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
+  driverClassName: com.mysql.jdbc.Driver
+  username: user1
+  password: 1234
+hibernate:
+  dialect: org.hibernate.dialect.MySQLInnoDBDialect
+  show_sql: false
+  hbm2ddl-auto: validate

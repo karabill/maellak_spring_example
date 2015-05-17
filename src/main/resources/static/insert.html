@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert Page</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+<script src="js/InsertModule.js"></script>
+</head>
+<body ng-app="InsertModule" ng-controller="InsertController">
+	<div>
+	<label>Name:</label>
+	<input type="text" ng-required="true" ng-model="name" ></input>
+	</div>
+	<div>
+	<label>Age:</label>
+	<input type="text" ng-required="true" ng-model="age" ></input>
+	</div>
+	<button type="button" ng-click="addPerson()"> Add </button>
+</body>
+</html>
